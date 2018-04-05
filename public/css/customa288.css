@@ -1,0 +1,131 @@
+body {font-family: 'Oxygen', sans-serif;}
+
+p {margin-bottom: 15px;}
+
+.header-middle {background: url("../images/bg-head.jpg") left center no-repeat #d4af37; padding: 15px 0;}
+
+ul#menu-primary li a {color: #fff; font-size: 14px;}
+
+.nav>li>a:focus, .nav>li>a:hover {background: transparent;}
+
+#hdbanner {background: url("../images/header-bg.jpg") center center; background-size: cover; padding-top: 15px; color: #fff;}
+
+.btn.btn-default, .wpcf7-submit {border: 2px solid #d4af37; border-radius: 25px; background-color: transparent; font-size: 15px; padding: 6px 25px; color: #d4af37;}
+
+.btn.btn-default:hover, .wpcf7-submit:hover{ border: 2px solid #d4af37; color: #000; background-color: #d4af37; }
+
+.nbtn {border: 2px solid #282828; border-radius: 25px; background-color: transparent; font-size: 15px; padding: 6px 25px; color: #282828; margin-top: 15px; display: inline-block;}
+
+.nbtn:hover {border: 2px solid #d4af37; background-color: #d4af37; color: #000;}
+
+h1 {font-weight: 300; font-family: 'Oxygen', sans-serif;}
+
+h2 {font-size: 30px; font-weight: 700;}
+
+h3 {font-size: 24px; color: #aeaeae;}
+
+h4 {font-weight: 700;}
+
+#tentang {background: url("../images/cube-bg.png") bottom right no-repeat;}
+
+
+
+#feature {background: #fdecc3;}
+
+#feature h3 {color: #000;}
+
+#feature h3 strong {font-size: 125%; color: #d4af37;}
+
+ul {-webkit-padding-start: 0;}
+
+ul.feat li {counter-increment: step-counter; position: relative; padding-left: 98px; display: block; list-style: none; text-align: left; padding-right: 15px; vertical-align: top; min-height: 75px; padding-top: 15px;}
+
+ul.feat li:before, ul.high li:before {margin-right: 5px; position: absolute; top: 0; left: 0; float: left; text-align: center;}
+
+ul.feat li.awal:before {content: url("../images/ico-awal.png");}
+
+ul.feat li.selamat:before {content: url("../images/ico-selamat.png");}
+
+ul.feat li.senarai:before {content: url("../images/ico-senarai.png");}
+
+ul.high li {counter-increment: step-counter; position: relative; padding-left: 134px; display: block; list-style: none; text-align: left; padding-right: 15px; vertical-align: top; min-height: 75px; padding-top: 10px;}
+
+ul.high li.guy:before {content: url("../images/img-guy.png");}
+
+ul.high li.gal:before {content: url("../images/img-gal.png");}
+
+
+
+#jenis {background: url("../images/bg-jenis.jpg") center right no-repeat #d4af37;}
+
+#jenis h3 {color: #d4af37;}
+
+.minh {min-height: 500px;}
+
+.wrap {position: relative; }
+
+.wrap .feat-img {display: flex; height: 100%; position: absolute;}
+
+.wrap img {object-fit: cover; object-position: center center;}
+
+
+
+#footer {background: url("../images/footer-bg.jpg") center center; background-size: cover;}
+
+#footer h3 {color: #d4af37; font-size: 30px; font-weight: 700; text-align: center; margin-bottom: 30px;}
+
+#footer h3.wh-txt, #copyright {color: #fff;}
+
+#copyright {font-size: 13px;}
+
+#footer a {color: #d4af37;}
+
+#footer h1 {font-size: 48px; font-weight: 700;}
+
+#footer h1 small {font-size: 18px; color: #d4af37; font-weight: 700; line-height: 21px; display: inline-block; text-align: left;}
+
+#footer .fa {font-size: 30px; margin: 0 5px;}
+
+
+.wpcf7-form-control-wrap {margin-bottom: 20px; display: block;}
+.wpcf7-form input:not([type="submit"]):not([type="reset"]), .wpcf7-form textarea, .wpcf7-form select {border-radius: 15px; background: transparent; padding: 2px 15px; font-size: 15px; border: 2px solid #fff; color: #fff; margin-bottom: 0;}
+
+.wpcf7-form option {color: #000;}
+
+div.wpcf7 .ajax-loader {display: none;}
+
+
+
+
+
+@media (max-width: 991px) {
+
+
+
+}
+
+
+
+@media (max-width: 767px) {
+
+	.nflex-center, .nflex {display: block;}
+
+	.wrap {min-height: 300px;}
+
+	.minh {min-height: initial;}
+
+	#logo img {max-width: 220px;}
+
+}
+
+
+
+@media (max-width: 480px) {
+
+	ul.high li {padding-left: initial; text-align: center;}
+
+	ul.high li.guy:before, ul.high li.gal:before {display: block; position: relative; width: 100%;}
+
+	#colophon {padding: 0;}
+
+}
